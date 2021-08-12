@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///C:/Users/aqua/Documents/GitHub/pr0gram1-Blog/pr0gram1_Flask/database.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///C:\Users/aqua/Documents/GitHub/pr0gram1-Blog/pr0gram1 Flask/database.db'
 
 db = SQLAlchemy(app)
 
